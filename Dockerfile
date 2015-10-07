@@ -9,4 +9,5 @@ ENV NODE_ENV dev
 VOLUME /nodeapp
 WORKDIR /nodeapp
 
-CMD ["nodemon", "-L", "."]
+COPY run.sh /run.sh
+ENTRYPOINT ["/run.sh"]
