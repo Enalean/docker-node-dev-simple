@@ -9,4 +9,4 @@ ENV NODE_ENV dev
 VOLUME /nodeapp
 WORKDIR /nodeapp
 
-CMD ["nodemon", "."]
+CMD ["nodemon", "-L", "."]
