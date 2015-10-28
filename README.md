@@ -16,3 +16,5 @@ Depending on what you are trying to do, you can link this container to another o
 ```
 $ docker run --rm -v "$PWD/example/":/nodeapp -p 8080:80 node-dev
 ```
+
+You can also find this image on the Docker Hub enalean/node-dev-simple
