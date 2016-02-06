@@ -1,7 +1,0 @@
-{
-    "name": "hello-world",
-    "main": "hello-world.js",
-    "dependencies": {
-        "express": "*"
-    }
-}
